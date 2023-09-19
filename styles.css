@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+#contentWrapper {
+    background-color: hsl(0, 0%, 100%);
+    text-align: center;
+    width: 325px;
+    height: 495px;
+    border-radius: 20px;
+}
+
+#qrWrapper {
+    padding: 1rem;
+}
+
+#qrImage {
+    width: 100%;
+    border-radius: 10px;
+}
+
+#callToAction {
+    text-align: center;
+    padding: 1.25rem;
+}
+
+#pop {
+    font-weight: 700;
+    font-size: 1.4rem;
+    padding-bottom: 1rem;
+    color: hsl(218, 44%, 22%)
+}
+
+#explain {
+    color: hsl(220, 15%, 55%);
+}
